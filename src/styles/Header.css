@@ -1,0 +1,41 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.img-icon-container {
+    display: flex;
+    align-items: center;
+  }
+
+.logo {
+    height: 35px;
+    width: 33px;
+    border-radius: 50%;
+}
+
+.mode {
+    border: thin double;
+    border-color: var(--colorsecondary);
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mode:hover {
+    border-color: var(--colorlinks);
+}
+.mode > button{
+    background-color: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+button > svg {
+    height: 35px;
+}

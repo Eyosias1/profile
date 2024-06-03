@@ -1,0 +1,23 @@
+
+.Home-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 60px;
+}
+.img-container > img {
+    height: 200px;
+    border-radius: 15px;
+}
+
+.social-icons > a{
+    display: flex;
+    justify-content: start;
+    height: 30px;
+    padding: 0;
+    padding-top: 20px;
+}
+.social-icons img {
+    width: 40px;
+    cursor: pointer;
+}
