@@ -9,19 +9,19 @@ import Header from './components/Header';
 
 
 function App() {
-return (
-<Router>
-  <div className="App section">
-    <Header />
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/about" element={<About />} />
-      <Route path="/articles" element={<Articles />} />
-      <Route path="/projects" element={<Projects />} />
-    </Routes>
-  </div>
-</Router>
-);
+  return (
+    <Router>
+      <div className="App section">
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/articles" element={<Articles />} />
+          <Route path="/projects" element={<Projects />} />
+        </Routes>
+      </div>
+    </Router>
+  );
 }
 
 export default App;

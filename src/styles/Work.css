@@ -1,0 +1,7 @@
+.work-about {
+    border: 1px solid;
+    border-radius: 15px;
+    width: 378px;
+    height: 402px;
+    border-color: var(--colorternerelight);
+}

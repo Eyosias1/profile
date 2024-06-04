@@ -1,6 +1,5 @@
 .navbar {
-    background-color: var(--colorternarelight);
-    overflow: hidden;
+    background-color: var(--colorternere);
     color: var(--colorprimary);
     border-radius: 35px;
     height: 40px;
@@ -8,9 +7,10 @@
     align-items: center;
     justify-content: center;
     font-size: 14px;
-    border: solid double;
+    border-bottom: solid;
+    /* border-bottom: 3px solid; */
+    border-width: 3px;
     border-color: var(--colorlinks);
-    
   }
 
 nav ul{
@@ -28,7 +28,7 @@ a {
     padding: 20px;
 }
 
-.navbar > li, a {
+.navbar > li , a {
     display: block;
     color: var(--colorp2);
     text-align: center;

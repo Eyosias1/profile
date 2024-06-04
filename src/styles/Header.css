@@ -17,17 +17,22 @@ header {
 }
 
 .mode {
+    background-color: var(--colorternarelight);
     border: thin double;
-    border-color: var(--colorsecondary);
+    border-color: var(--colorlinks);
     height: 55px;
     width: 55px;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: var(--transition)
 }
 .mode:hover {
     border-color: var(--colorlinks);
+    transform: 2px;
+    translate: 0px 2px;
+    padding: 1%;
 }
 .mode > button{
     background-color: none;

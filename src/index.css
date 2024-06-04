@@ -4,8 +4,9 @@
   --colorprimary:  white;
   --colorsecondary: #000000;
   --colorternere: #1a1919;
-  --colorternarelight: #262525 ;
+  --colorternerelight: #262525 ;
   --colorlinks: #4aedb4;
+  --colorlinks2: rgb(141, 141, 141);
   --ff: 'Open Sans', 'sans-serif';
   --h1: bold 54px/70px var(--ff);
   --h2: bold 36px/36px var(--ff);
@@ -41,7 +42,7 @@ body {
 }
 
 svg {
-  fill: var(--colorsecondary);
+  fill: var(--colorlinks2);
   width: 50px;
 }
 

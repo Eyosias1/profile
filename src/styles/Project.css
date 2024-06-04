@@ -1,0 +1,80 @@
+.Project {
+    padding-top: 50px;
+}
+
+.Project  ul {
+    margin: 0;
+    padding: 0;
+    margin-left: 2%;
+    padding-top: 40px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 8px
+}
+.Project  ul > li {
+    height: 200px;
+    width: 248px;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+ul > li > .proj-li {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+}
+.proj-li > .cal {
+    padding: 0;
+    height: 20px;
+    font-size: 14px;
+    display: flex;
+    gap: 10px;
+}
+.proj-li > .cal > .bar{
+    border: 1px solid;
+    border-width: 0.3px;
+    height: 80%;
+}
+.Project p {
+    font-weight: lighter;
+    font-size: 13px;
+}
+
+.project-icon > img {
+    height: 50px;
+    border-radius: 50%;
+}
+.link-proj-desc > a {
+    padding: 0px;
+    font-size: 15px;
+}
+.link-proj-desc > svg {
+    height: 15px;
+    width: 25px;
+}
+
+.link-proj-desc {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    gap: 10px;
+    height: 10px;
+}
+
+.Project li:hover {
+    transition: var(--transition);
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: rgb(52, 51, 51);
+    svg {
+        fill: var(--colorlinks);
+    };
+    a {
+        color: var(--colorlinks);
+    };
+}
