@@ -1,7 +1,90 @@
 .email-about {
     border: 1px solid;
     border-radius: 15px;
-    width: 378px;
+    width: 420px;
     height: 194px;
     border-color: var(--colorternerelight);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+@keyframes highlight {
+    0% {border-color: var(--colorternerlight);}
+    50% {border-color: var(--colorlinks);}
+    0% {border-color: var(--colorternerlight);}
+}
+@keyframes highlight2 {
+    0% {border-color: var(--colorternerlight);}
+    50% {border-color: var(--colorlinks);}
+    100% {border-color: var(--colorlinks);}
+}
+.email-about:hover {
+    transition: var(--transition);
+    background-color: var(--colorternerelight);
+    border-radius: 25px;
+    animation: highlight 4s forwards;
+}
+
+.email-about h3 {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    gap: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.email-about p {
+    font-size: 14px;
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-right: 35px;
+}
+
+.email-signupform {
+    display: flex;
+    width: 100%;
+    height: 15%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+input {
+    outline: none;
+    padding: 7px;
+    margin: 0px;
+    background-color: var(--colorternere);
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: var(--colorternerelight);
+    width: 70%;
+    height: 95%;
+    color: white;
+}
+.email-signupform input:focus {
+    animation: highlight 5s forwards;
+  }
+/* input:focus { */
+/*     border-color: var(--colorlinks); */
+/* } */
+
+button {
+    outline: none;
+    padding: 8px 12px;
+    margin-left: 5px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-style: bold;
+    background-color: var(--colorternerelight2);
+}
+.email-about  button:hover {
+    transition: var(--transition);
+    padding: 12px 14px;
+    cursor: pointer;
+    background-color: var(--colorternere);
+    border: 1px solid var(--colorlinks);
+    color: var(--colorlinks);
 }

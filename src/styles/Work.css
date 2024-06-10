@@ -1,7 +1,77 @@
 .work-about {
     border: 1px solid;
+    width: 420px;
+    height: 408px;
     border-radius: 15px;
-    width: 378px;
-    height: 402px;
     border-color: var(--colorternerelight);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.work-about:hover {
+    transition: var(--transition);
+    border-color: var(--colorlinks);
+    background-color: var(--colorternerelight);
+    border-radius: 25px;
+}
+
+.work-about h2 {
+    padding-top: 10px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    gap: 10px;
+}
+.work-about ol {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 95%;
+}
+.work-about li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    height: 48px;
+    gap: 10px;
+}
+.work-about > .cv-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cv-button > a {
+    padding: 10px 0 10px 0;
+    width: 40%;
+    border: 2px solid;
+    border-radius: 15px;
+}
+.cv-button > a:hover {
+    transition: var(--transition);
+    cursor: pointer;
+    border-color: var(--colorlinks);
+    color: var(--colorlinks);
+    padding: 13px 3px 13px 3px;
+}
+.work-about .exp-desc {
+    width: 85%;
+}
+.work-about .exp-desc > .title-desc {
+    gap: 10px;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+}
+.work-about li > .exp-desc h3 {
+    font-size: 15px;
+}
+.work-about li > .exp-desc p {
+    font-size: 14px;
+}
+.work-about li > img {
+    border-radius: 50%;
+    width: 40px;
 }

@@ -1,7 +1,7 @@
 .App {
     background-color: var(--colorternere);
     color: white;
-    border: solid;
+    border: 5px solid;
     border-color:var(--colorternerelight);
     border-width: 1px;
     display: flex;

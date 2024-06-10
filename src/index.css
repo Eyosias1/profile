@@ -1,10 +1,12 @@
 :root {
   --transition: 0.3s ease-in-out;
+  --transitionfast: 0.2s ease-in-out;
   --colorp2: #ffffff;
   --colorprimary:  white;
   --colorsecondary: #000000;
   --colorternere: #1a1919;
   --colorternerelight: #262525 ;
+  --colorternerelight2: #5f5a5a ;
   --colorlinks: #4aedb4;
   --colorlinks2: rgb(141, 141, 141);
   --ff: 'Open Sans', 'sans-serif';
@@ -14,6 +16,7 @@
   --links: bold 18px/18px var(--ff);
   --p2: bold 30px/36px var(--ff);
   --p: bold 18px/30px var(--ff);
+  --color: hsl(49, 100, 70);
 }
 
 h1,
@@ -44,6 +47,7 @@ body {
 svg {
   fill: var(--colorlinks2);
   width: 50px;
+  height: 25px;
 }
 
 svg:hover {
@@ -53,4 +57,8 @@ svg:hover {
 .section {
   max-width: 1080px;
   margin: auto;
+}
+
+p {
+  line-height: normal;
 }
