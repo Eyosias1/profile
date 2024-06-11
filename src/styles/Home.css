@@ -48,6 +48,9 @@
 
 
 @media (max-width: 800px) {
+    .Home-section {
+        padding: 20px;
+    }
    .exp-section {
         flex-direction: column-reverse;
         gap: 20px;
@@ -56,6 +59,6 @@
         width: 90%;
     }
     .sum-container {
-        width: 90%;
+        width: 100%;
     }
 }
