@@ -8,6 +8,7 @@ header {
 .img-icon-container {
     display: flex;
     align-items: center;
+    float: left;
   }
 
 .logo {
@@ -26,7 +27,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: var(--transition)
+    transition: var(--transition);
+    float: right;
 }
 .mode:hover {
     border-color: var(--colorlinks);
@@ -39,8 +41,15 @@ header {
     border: none;
     background: none;
     cursor: pointer;
+    margin: 0;
+    padding: 0;
 }
 
 button > svg {
     height: 35px;
+    width: 35px;
+}
+
+
+@media (max-width: 750px) {
 }

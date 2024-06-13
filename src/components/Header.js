@@ -14,11 +14,14 @@ document.body.classList.toggle('dark-mode', !isDarkMode);
 
 return (
 <div className='header-div'>
+
   <header className="header">
     <div className="img-icon-container">
       <Link to="/profile"><img src={logo} alt="profile Logo" className="logo" /></Link>
     </div>
+
     <NavBar />
+
     <div className='mode'>
       <button className="mode-toggle" onClick={toggleDarkMode}>
         {isDarkMode ?
