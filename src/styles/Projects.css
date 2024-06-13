@@ -5,20 +5,51 @@
     gap: 30px
 }
 
+.project-page h1{
+    font-size: 45px;
+    line-height: 1.2;
+}
+.project-page p{
+    /* font-weight: lighter; */
+    font-size: 16px;
+    line-height: 1.3;
+}
 
 .all-Project > ul {
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
-
-
 .projects-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 5px;
 }
-
 li > .proj-grid {
+    /* background-color: var(--colorternerelight); */
+    border-radius: 15px;
+    height: 13rem;
+    width: 17rem;
+}
+.projects-grid > li:hover {
+    border-radius: 15px;
     background-color: var(--colorternerelight);
-    border-radius: 5px;
-    padding: 2%;
+    transition: var(transition);
+    cursor: pointer;
+}
+li > .proj-grid > .proj-grid-el {
+    padding: 5% 0% 0% 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+.proj-grid h3 {
+    font-size: 20px;
+    line-height: 1;
+}
+.proj-grid p {
+    font-weight: lighter;
+    font-size: 15px;
+    line-height: 1.2;
 }
