@@ -1,6 +1,4 @@
 :root {
-  --transition: 0.3s ease-in-out;
-  --transitionfast: 0.2s ease-in-out;
   --colorp2: #ffffff;
   --colorprimary:  white;
   --colorsecondary: #000000;
@@ -8,28 +6,41 @@
   --colorternerelight: #262525 ;
   --colorternerelight2: #5f5a5a ;
   --colorlinks: #4aedb4;
-  --colorlinks2: rgb(141, 141, 141);
   --ff: 'Open Sans', 'sans-serif';
+  --transition: 0.3s ease-in-out;
+  --transitionfast: 0.2s ease-in-out;
   --h1: bold 54px/70px var(--ff);
   --h2: bold 36px/36px var(--ff);
   --h3: bold 24px/30px var(--ff);
   --links: bold 18px/18px var(--ff);
   --p2: bold 30px/36px var(--ff);
   --p: bold 18px/30px var(--ff);
-  --color: hsl(49, 100, 70);
 }
-
+body.light-mode {
+  --colorp2: #020202;
+  --colorprimary:  rgb(255, 255, 255);
+  --colorsecondary: #efeded;
+  --colorternere: #fdfdfd;
+  --colorternerelight: #f4f4f4 ;
+  --colorternerelight2: #c8c8c8 ; /*svg , links color before fill*/
+  --colorlinks: #4aedb4;
+}
 h1,
 h2,
 h3,
 p,
+a,
+button,
+span,
 .links,
 .p2 {
+  color: var(--colorp2);
   margin: 0px;
 }
 h1{font: var(--h1);}
 h2{font: var(--h2);}
-h3{font: var(--h3);}
+h3{
+  font: var(--h3);}
 .links{font: var(--links);}
 .p2{font: var(--p2);}
 p{font: var(--p);}
@@ -41,11 +52,11 @@ body {
   padding: 0;
   margin: auto;
   background-color: var(--colorsecondary);
-  color: var(--colorp2);
+  ;
 }
 
 svg {
-  fill: var(--colorlinks2);
+  fill: var(--colorternerelight2);
   width: 50px;
   height: 25px;
 }

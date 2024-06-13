@@ -28,7 +28,7 @@ return (
     </button>
     <ul className="nav-items">
       <li>
-        <Link to=" /profile">Home</Link>
+        <Link to="/profile">Home</Link>
       </li>
       <li>
         <Link to="/about">About</Link>
@@ -59,12 +59,15 @@ return (
           <li>
             <Link to="/profile">Home</Link>
           </li>
+          <span></span>
           <li>
             <Link to="/about">About</Link>
           </li>
+          <span></span>
           <li>
             <Link to="/articles">Articles</Link>
           </li>
+          <span></span>
           <li>
             <Link to="/projects">Projects</Link>
           </li>

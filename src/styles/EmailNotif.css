@@ -61,7 +61,7 @@ input {
     border-color: var(--colorternerelight);
     width: 70%;
     height: 95%;
-    color: white;
+    color: var(--colorp2);
 }
 .email-signupform input:focus {
     animation: highlight 5s forwards;
@@ -76,7 +76,7 @@ button {
     margin-left: 5px;
     border: none;
     border-radius: 5px;
-    color: white;
+    color: var(--colorp2);
     font-style: bold;
     background-color: var(--colorternerelight2);
 }

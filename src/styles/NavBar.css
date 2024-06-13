@@ -49,8 +49,7 @@ nav > button > svg:hover {
     inset: 0;
     scale: 1;
     height: 100%;
-    width: 95%;
-    translate: 15px 2px;
+    width: 100%;
     background: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(5px);
     transition: var(--transition);
@@ -94,11 +93,24 @@ nav ul{
     border: 1px solid var(--colorlinks);
     background-color: var(--colorternere);
     border-radius: 15px;
+    width: 85%;
+    transform: translate(5%, 20%);
 }
 .modal-nav > ul {
     display: flex;
     flex-direction: column;
     align-items: start;
+}
+.modal-nav > ul > li {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+.modal-nav > ul  > span {
+    border: 1px solid;
+    border-width: 0.1px;
+    width: 100%;
+    border-color: var(--colorlinks)
 }
 .nav-items2 {
     display: none;
@@ -111,10 +123,10 @@ nav ul{
     width: 90%;
 }
 
-a {
+.modal-nav > ul > li > a {
     text-decoration: none;
-    color: var(--colorprimary);
-    padding: 20px;
+    color: var(--colorp2);
+    padding: 20px 0px 10px 0px;
 }
 
 .navbar > li , a {
