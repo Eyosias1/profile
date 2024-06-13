@@ -1,0 +1,24 @@
+.project-page {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px
+}
+
+
+.all-Project > ul {
+    list-style: none;
+}
+
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+li > .proj-grid {
+    background-color: var(--colorternerelight);
+    border-radius: 5px;
+    padding: 2%;
+}
