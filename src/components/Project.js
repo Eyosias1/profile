@@ -15,7 +15,7 @@ return (
             <div className='proj-li'>
                 <div className='cal'>
                     <span className='bar'></span>
-                    <span className='date'> September 2, 2022</span>
+                    <span className='date'> Mai 9, 2024</span>
                 </div>
                 <div className='project-icon'>
                     <img src={cid} alt="profile Logo" className="profile-img" />
@@ -38,7 +38,7 @@ return (
             <div className='proj-li'>
                 <div className='cal'>
                     <span className='bar'></span>
-                    <span className='date'> September 2, 2022</span>
+                    <span className='date'> July 14, 2023</span>
                 </div>
                 <div className='project-icon'>
                     <img src={travel} alt="profile Logo" className="profile-img" />
@@ -61,7 +61,7 @@ return (
             <div className='proj-li'>
                 <div className='cal'>
                     <span className='bar'></span>
-                    <span className='date'> September 2, 2022</span>
+                    <span className='date'> August 6, 2023</span>
                 </div>
                 <div className='project-icon'>
                     <img src={car} alt="profile Logo" className="profile-img" />

@@ -42,10 +42,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 10px;
+    gap: 20px;
 }
 .cv-button > a {
     padding: 10px 0 10px 0;
-    width: 40%;
+    width: 35%;
     border: 2px solid;
     border-radius: 15px;
 }
