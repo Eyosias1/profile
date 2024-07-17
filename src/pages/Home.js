@@ -12,7 +12,7 @@ return (
     <img src={profile} alt="profile Logo" className="profile-img" />
   </div>
   <div className='Intro-home'>
-    <h1>Software designer, founder, and amateur astronaut.</h1>
+    <h1>Software developer and founder.</h1>
     <p>
       I’m Eyosias, a software developper and entrepreneur based in Clermont-Ferrand.
       I’m the founder of CID (calcul tes indémnités)l tes indémnités),
