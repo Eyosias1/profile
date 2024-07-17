@@ -14,9 +14,9 @@ return (
   <div className='Intro-home'>
     <h1>Software designer, founder, and amateur astronaut.</h1>
     <p>
-      I’m Eyosias, a software developper and entrepreneur based in Clermont-Ferrandrrandrrand.
+      I’m Eyosias, a software developper and entrepreneur based in Clermont-Ferrand.
       I’m the founder of CID (calcul tes indémnités)l tes indémnités),
-      where we developped a simple application regular people to explore space on their own terms.
+      where I developped a simple application for regular people to calculate their compensations.
     </p>
     <div className='social-icons'>
       <a href='https://x.com/EyosiasTsegaye1'>
