@@ -14,10 +14,9 @@ return (
   <div className='Intro-home'>
     <h1>Software designer, founder, and amateur astronaut.</h1>
     <p>
-      I’m Spencer, a software designer and entrepreneur based in New York City.
-      I’m the founder and CEO of Planetaria,
-      where we develop technologies that empower
-      regular people to explore space on their own terms.
+      I’m Eyosias, a software developper and entrepreneur based in Clermont-Ferrandrrandrrand.
+      I’m the founder of CID (calcul tes indémnités)l tes indémnités),
+      where we developped a simple application regular people to explore space on their own terms.
     </p>
     <div className='social-icons'>
       <a href='https://x.com/EyosiasTsegaye1'>
