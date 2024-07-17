@@ -66,7 +66,7 @@ return (
         </li>
     </ol>
     <div className="cv-button">
-        <a href="/cv.pdf" download="Cv-Eyosias">English CV</a>
+        <a href="https://eyosias1.github.io/cv.pdf" download="Cv-Eyosias">English CV</a>
         <a href="/cv.pdf" download="Cv-Eyosias">French CV</a>
     </div>
 </div>
