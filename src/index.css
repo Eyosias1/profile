@@ -14,7 +14,7 @@
   --h3: bold 24px/30px var(--ff);
   --links: bold 18px/18px var(--ff);
   --p2: bold 30px/36px var(--ff);
-  --p: bold 18px/30px var(--ff);
+  --p: light 18px/30px var(--ff);
 }
 body.light-mode {
   --colorp2: #020202;
@@ -62,7 +62,8 @@ svg {
 }
 
 svg:hover {
-  fill: var(--colorlinks)
+  fill: var(--colorlinks);
+  cursor: pointer;
 }
 
 .section {

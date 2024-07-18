@@ -15,8 +15,8 @@ return (
     <h1>Software developer and founder.</h1>
     <p>
       I’m Eyosias, a software developper and entrepreneur based in Clermont-Ferrand.
-      I’m the founder of CID (calcul tes indémnités)l tes indémnités),
-      where I developped a simple application for regular people to calculate their compensations.
+      I’m the founder of CID (calcul tes indémnités),
+      where I developed a simple application for regular people to calculate their compensations.
     </p>
     <div className='social-icons'>
       <a href='https://x.com/EyosiasTsegaye1'>
