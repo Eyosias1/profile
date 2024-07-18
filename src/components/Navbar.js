@@ -55,21 +55,21 @@ return (
         </button>
       </div>
       <nav className="modal-nav">
-        <ul>
+        <ul onClick={toggleMenu}>
           <li>
-            <Link to="/profile">Home</Link>
+            <Link to="/profile" onClick={toggleMenu}>Home</Link>
           </li>
           <span></span>
           <li>
-            <Link to="/about">About</Link>
+            <Link to="/about" onClick={toggleMenu}>About</Link>
           </li>
           <span></span>
           <li>
-            <Link to="/articles">Articles</Link>
+            <Link to="/articles" onClick={toggleMenu}>Articles</Link>
           </li>
           <span></span>
           <li>
-            <Link to="/projects">Projects</Link>
+            <Link to="/projects" onClick={toggleMenu}>Projects</Link>
           </li>
         </ul>
       </nav>
