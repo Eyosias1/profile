@@ -14,7 +14,59 @@
     font-size: 16px;
     line-height: 1.3;
 }
-
+.proj-keyword {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid;
+    border-color: var(--colorternerelight2);
+    border-radius: 15px;
+    height: auto;
+    padding: 15px 0;
+}
+.proj-keyword:hover {
+    transition: var(--transition);
+    border-color: var(--colorlinks);
+    cursor: pointer;
+}
+.proj-keyword:hover button {
+    transition: var(--transition);
+    border-color: var(--colorlinks);
+}
+.proj-keyword > h1 {
+    font-size: 35px;
+}
+.keyword-buttons {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 13px;
+}
+.keyword-buttons button {
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    margin: 0;
+    padding: 0 22px 0 20px;
+    border: 1px solid;
+    border-radius: 25px;
+    background-color: var(--colorternerelight);
+    /* border-color: var(--colorlinks); */
+    font: var(--p2but);
+}
+.keyword-buttons button.active {
+    background-color: var(--colorlinks2);
+    border-color: var(--colorlinks2);
+}
+.keyword-buttons button:hover {
+    transition: var(--transition);
+    cursor: pointer;
+    background-color: var(--colorlinks2);
+    /* color: var(--colorsecondary); */
+}
 .all-Project > ul {
     list-style: none;
     padding: 0;
@@ -36,6 +88,12 @@ li > .proj-grid {
     background-color: var(--colorternerelight);
     transition: var(transition);
     cursor: pointer;
+}
+.projects-grid > li:hover .link-proj-desc svg {
+    fill: var(--colorlinks);
+}
+.projects-grid > li:hover .link-proj-desc a {
+   color: var(--colorlinks);
 }
 li > .proj-grid > .proj-grid-el {
     padding: 5% 0% 0% 5%;
