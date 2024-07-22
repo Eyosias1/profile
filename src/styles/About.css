@@ -83,8 +83,16 @@
     }
     .about-contact {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-between;
-        align-items: center;
+        align-items: start;
+        gap:20px;
+    }
+    .about-p > h1 {
+        width: 100%;
+        line-height: 1.4;
+        font-size: 30px; 
+        display: flex;
+        justify-content: center;
     }
 }
