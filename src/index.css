@@ -6,6 +6,7 @@
   --colorternerelight: #262525 ;
   --colorternerelight2: #5f5a5a ;
   --colorlinks: #4aedb4;
+  --colorlinks2: #4285F4;
   --ff: 'Open Sans', 'sans-serif';
   --transition: 0.3s ease-in-out;
   --transitionfast: 0.2s ease-in-out;
@@ -14,6 +15,7 @@
   --h3: bold 24px/30px var(--ff);
   --links: bold 18px/18px var(--ff);
   --p2: bold 30px/36px var(--ff);
+  --p2but: bold 14px/26px var(--ff);
   --p: light 18px/30px var(--ff);
 }
 body.light-mode {
@@ -24,6 +26,7 @@ body.light-mode {
   --colorternerelight: #f4f4f4 ;
   --colorternerelight2: #c8c8c8 ; /*svg , links color before fill*/
   --colorlinks: #4aedb4;
+  --colorlinks2: #4285F4;
 }
 h1,
 h2,

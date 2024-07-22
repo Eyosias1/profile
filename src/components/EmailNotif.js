@@ -12,7 +12,7 @@ return (
         <span>Stay up to date</span>
     </h3>
     <p>Get notified when I publish something new, and unsubscribe at any time.</p>
-    <div class="email-signupform">
+    <div className="email-signupform">
         <input type="text" placeholder="Email address" />
         <button>Join</button>
     </div>
