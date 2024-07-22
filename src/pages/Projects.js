@@ -1,61 +1,42 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "../styles/Projects.css";
 import profile from "../assets/profile1.jpg";
 import SvgIcon from "../components/SvgIcon"; // Import the SVG component
+// images
 import cid from "../assets/cid.jpg";
 import travel from "../assets/Travelit.svg";
 import car from "../assets/Car 64.png";
+import img42 from "../assets/42.png";
+import rab from "../assets/rabbit.jpg";
+import qrcode from "../assets/QR Code.png";
+import soko from "../assets/sokoban.jpg";
+
+import projectsData from "../assets/data/projects.json";
+import keywordsData from "../assets/data/sofwareKeywords.json";
+import keywordsLangData from "../assets/data/LanguageKeywords.json";
 
 function Projects() {
-  const projects = [
-    {
-      id: 1,
-      title: "Calcule tes indémnités",
-      description:
-        "Calcule tes indémnités is the web app to ensuire you are being payed all your indemnites as a french worker.",
-      imgSrc: cid,
-      link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-      keywords: [
-        "ALL CATEGORIES",
-        "full stack",
-        "react",
-        "mern stack",
-        "javascript",
-        "python",
-      ],
-    },
-    {
-      id: 2,
-      title: "Travel-It",
-      description:
-        "Travel-It is the authentique tourisme app designed for young travelers seeking thrilling experiences and memorable journeys.",
-      imgSrc: travel,
-      link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-      keywords: [
-        "ALL CATEGORIES",
-        "FULL STACK",
-        "Ruby on rails",
-        "ruby",
-        "postgree",
-      ],
-    },
-    {
-      id: 3,
-      title: "Car-Rental",
-      description:
-        "Car-Rental is the premier web app designed to make car rentals and reservations a breeze.",
-      imgSrc: car,
-      link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-      keywords: [
-        "all categories",
-        "full stack",
-        "ruby on rails",
-        "ruby",
-        "postgree",
-      ],
-    },
-  ];
-  const [selectedKeywords, setSelectedKeywords] = useState([]);
+  const [projects, setProjects] = useState([]);
+  const [keywords, setKeywords] = useState([]);
+  const [keywordsLang, setKeywordsLang] = useState([]);
+
+  const [selectedKeywords, setSelectedKeywords] = useState(["all categories"]);
+
+  const imgMap = {
+    cid: cid,
+    travel: travel,
+    car: car,
+    img42: img42,
+    rab: rab,
+    qr_c: qrcode,
+    soko: soko,
+  };
+
+  useEffect(() => {
+    setProjects(projectsData);
+    setKeywords(keywordsData);
+    setKeywordsLang(keywordsLangData);
+  }, []);
 
   const handleKeywordClick = (keyword) => {
     const normalizedKeyword = keyword.toLowerCase();
@@ -68,27 +49,6 @@ function Projects() {
         : [...prevKeywords, keyword];
     });
   };
-
-  const keywords = [
-    "all categories",
-    "MERN stack",
-    "Ruby on Rails",
-    "react",
-    "full stack",
-    "front end",
-    "back end",
-    "unity",
-  ];
-
-  const keywordsLang = [
-    "c",
-    "java",
-    "python",
-    "javascript",
-    "ruby",
-    "c#",
-    "assembly",
-  ];
 
   const filteredProjects = projects.filter((project) =>
     selectedKeywords.every((kw) =>
@@ -145,7 +105,7 @@ function Projects() {
           ))}
         </div>
         <h3>Programming languages</h3>
-        <div className="keyword-buttons">
+        <div className="keyword-buttons lang-key">
           {keywordsLang.map((keyword) => (
             <button
               key={keyword}
@@ -166,18 +126,25 @@ function Projects() {
                 <div className="proj-grid-el">
                   <div className="project-icon">
                     <img
-                      src={project.imgSrc}
+                      src={imgMap[project.imgSrc]}
                       alt={`${project.title} Logo`}
                       className="profile-img"
                     />
                   </div>
                   <h3>{project.title}</h3>
                   <p>{project.description}</p>
-                  <div className="link-proj-desc">
-                    <SvgIcon iconName="link_svg" />
-                    <a href={project.link}>{project.title}</a>
-                  </div>
+                  {project.link && (
+                    <div className="link-proj-desc">
+                      <SvgIcon iconName="link_svg" />
+                      <a href={project.link}>{project.title}</a>
+                    </div>
+                  )}
                 </div>
+                {project.linkToGit && (
+                  <a className="git-link" href={project.linkToGit}>
+                    Git Hub
+                  </a>
+                )}
               </div>
             </li>
           ))}

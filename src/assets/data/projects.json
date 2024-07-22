@@ -1,0 +1,272 @@
+[
+    {
+      "id": 1,
+      "title": "Calcule tes indémnités",
+      "description": "Calcule tes indémnités is the web app to ensure you are being paid all your indemnities as a French worker.",
+      "imgSrc": "cid",
+      "link": "https://cid-zfx1.onrender.com/",
+      "keywords": [
+        "ALL CATEGORIES",
+        "full stack",
+        "react",
+        "mern stack",
+        "javascript",
+        "front-end",
+        "back-end",
+        "python"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Travel-It",
+      "description": "Travel-It is the authentic tourism app designed for young travelers seeking thrilling experiences and memorable journeys.",
+      "imgSrc": "travel",
+      "link": "https://travel-it.onrender.com/",
+      "linkToGit": "https://github.com/Eyosias1/Travelit-eyos",
+      "keywords": [
+        "ALL CATEGORIES", 
+        "FULL STACK", 
+        "Ruby on rails", 
+        "ruby", 
+        "front-end",
+        "back-end",
+        "postgree"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Car-Rental",
+      "description":
+        "Car-Rental is the premier web app designed to make car rentals and reservations a breeze.",
+      "imgSrc": "car",
+      "linkToGit": "https://github.com/Eyosias1/car-rental-challenge",
+      "keywords": [
+        "all categories",
+        "full stack",
+        "ruby on rails",
+        "ruby",
+        "front-end",
+        "back-end",
+        "postgree"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Simu Pop",
+      "description":
+        "Simulation of a rabbit population across multiple years in C and python",
+      "imgSrc": "rab",
+      "linkToGit": "https://github.com/Eyosias1/Simu-pop-lap",
+      "keywords": [
+        "all categories",
+        "c",
+        "python"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "WaCode",
+      "description":
+        "A simple Qr code generator built from scratch, using algorithms like readSolomon",
+      "imgSrc": "qr_c",
+      "linkToGit": "https://github.com/Eyosias1/QRCODEbyEyos",
+      "keywords": [
+        "all categories",
+        "python"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Sokoban Mario",
+      "description":
+        "A Unity game inspired by the 80s Sokoban game. The player arranges boxes on target squares, moving in four directions and pushing one box at a time.",
+      "imgSrc": "soko",
+      "linkToGit": "https://github.com/Eyosias1/Sokoban-unity",
+      "keywords": [
+        "all categories",
+        "unity",
+        "c#"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Connect Four",
+      "description":
+        "Connect four game. Learning object oriented programming and optimization of complexity using recursion",
+      "imgSrc": "",
+      "linkToGit": "https://github.com/Eyosias1/connect_four",
+      "keywords": [
+        "all categories",
+        "java"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Compiled a Language",
+      "description":
+        "Created my own programming language with java and asssembly. Implementing the basic operations (loop, addition, division ...)",
+      "imgSrc": "",
+      "linkToGit": "https://github.com/Eyosias1/Compilation",
+      "keywords": [
+        "all categories",
+        "java",
+        "assembly"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Algorithms and Math",
+      "description":
+        "Learned how to implement famouse algorithms like jacobi and Lagrange interpolation ",
+      "imgSrc": "",
+      "linkToGit": "https://github.com/Eyosias1/Maths-and-Agorithms",
+      "keywords": [
+        "all categories",
+        "c"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "C bootcamp",
+      "description":
+        "Reimplemented most of the standard library (stdio.h) of c ",
+      "imgSrc": "img42",
+      "linkToGit": "https://github.com/Eyosias1/ecole-42-lyon-piscine",
+      "keywords": [
+        "all categories",
+        "c"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "2048",
+      "description":
+        "Recreated Famous 2048 game in c with c's best practices, learning how to build with make and organize.",
+      "imgSrc": "",
+      "linkToGit": "https://github.com/Eyosias1/2048",
+      "keywords": [
+        "all categories",
+        "c"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Web server",
+      "description":
+        "Implemented the back-end of a colored sticker dot management app for a school.",
+      "imgSrc": "",
+      "linkToGit": "https://github.com/Eyosias1/Y2_webserver",
+      "keywords": [
+        "all categories",
+        "java",
+        "back-end"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Medium article",
+      "description":
+        "Learning the front-end, styling and pushing to github pages.",
+      "imgSrc": "",
+      "link": "https://eyosias1.github.io/medium-article/",
+      "linkToGit": "https://github.com/Eyosias1/medium-article",
+      "keywords": [
+        "all categories",
+        "javascript",
+        "front-end"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Landing page",
+      "description":
+        "Learning the front-end,how to create a landing page, styling and pushing to github pages.",
+      "imgSrc": "",
+      "link": "eyosias1.github.io/landing/",
+      "linkToGit": "https://github.com/Eyosias1/landing",
+      "keywords": [
+        "all categories",
+        "javascript",
+        "front-end"
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Image gallery",
+      "description":
+        "Learning the front-end,how to create a image gallery in javascript and pushing to github pages.",
+      "imgSrc": "",
+      "link": "eyosias1.github.io/image-gallery/",
+      "linkToGit": "https://github.com/Eyosias1/image-gallery",
+      "keywords": [
+        "all categories",
+        "javascript",
+        "front-end"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Setup",
+      "description":
+        "Created a setup for fast front-end website development.",
+      "imgSrc": "",
+      "link": "eyosias1.github.io/setup-layout/",
+      "linkToGit": "https://github.com/Eyosias1/setup-layout",
+      "keywords": [
+        "all categories",
+        "javascript",
+        "front-end"
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Background Css generator",
+      "description":
+        "Created a free page that allows users to generate a linear gradient background of their choice instantly.",
+      "imgSrc": "",
+      "link": "https://eyosias1.github.io/background-generator-byeyos/",
+      "linkToGit": "https://github.com/Eyosias1/background-generator-byeyos",
+      "keywords": [
+        "all categories",
+        "javascript",
+        "front-end"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Registration System",
+      "description":
+        "The assembly language program that allows you to register employees, list all registered employees, display a specific employee, find the average age of employees, and exit the program..",
+      "imgSrc": "",
+      "linkToGit": "https://github.com/Eyosias1/assembly-registration_system",
+      "keywords": [
+        "all categories",
+        "assembly"
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Assembly",
+      "description":
+        "The ultimate assembly exercice git repository.",
+      "imgSrc": "",
+      "linkToGit": "https://github.com/Eyosias1/Assembly-ex",
+      "keywords": [
+        "all categories",
+        "assembly"
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Advanced javascript",
+      "description":
+        "Learning and catching up with all javascript ES series.",
+      "imgSrc": "",
+      "linkToGit": "https://github.com/Eyosias1/advanced_javascript_ex",
+      "keywords": [
+        "all categories",
+        "javascript"
+      ]
+    }
+
+]
