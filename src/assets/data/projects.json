@@ -22,6 +22,7 @@
         "react",
         "javascript",
         "python",
+        "flask",
         "stripe"
       ]
     },
