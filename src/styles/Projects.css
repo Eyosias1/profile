@@ -78,12 +78,12 @@
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 5px;
+    gap: 20px;
 }
 .projects-grid > li {
     padding: 5% 0% 0% 5%;
     border-radius: 25px;
-    /* background-color: var(--colorternerelight); */
+    height: 100%;
 }
 .projects-grid > li:hover {
     background-color: var(--colorternerelight);
@@ -101,19 +101,45 @@ li > .proj-grid {
     flex-direction: column;
     gap: 25px;
     justify-content: center;
-    align-items: start;
+    align-items: center;
+}
+.project-keywords {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.project-keywords > a {
+    border-radius: 15px;
+    padding: 0;
+    height: 30px;
+    width: 80px;
+    background-color: var(--colorlinks2);
+    font-size: 11px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .git-link {
     border-radius: 15px;
-    background-color: var(--colorlinks2);
     width: 95%;
     padding: 5px 0;
-    margin-bottom: 15px;
     font-style: bold;
     font-size: 17px;
+    margin: 5px 0;
+    display: flex;
+    justify-content: center;
 }
 .git-link:hover {
+    transition: var(--transition);
+    background-color: var(--colorlinks);
     cursor: pointer;
+    color: var(--colorsecondary);
+    svg {
+        fill : black;
+    }
 }
 .projects-grid > li:hover .link-proj-desc svg {
     fill: var(--colorlinks);
@@ -127,6 +153,7 @@ li > .proj-grid > .proj-grid-el {
     flex-direction: column;
     justify-content: space-between;
     gap: 10px;
+    /* margin-bottom: 20px; */
 }
 .proj-grid h3 {
     font-size: 20px;

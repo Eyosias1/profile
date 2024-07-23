@@ -96,8 +96,12 @@ function Projects() {
 
   const keywordCount = countKeywordOccurrences(projects);
 
-  const handleItemClick = (url) => {
-    window.location.href = url;
+  const handleItemClick = (project) => {
+    if (project.link) {
+      window.location.href = project.link;
+    } else {
+      window.location.href = project.linkToGit;
+    }
   };
 
   return (
@@ -141,7 +145,7 @@ function Projects() {
       <div className="all-Project">
         <ul className="projects-grid">
           {filteredProjects.map((project) => (
-            <li key={project.id} onClick={() => handleItemClick(project.link)}>
+            <li key={project.id} onClick={() => handleItemClick(project)}>
               <div className="proj-grid">
                 <div className="proj-grid-el">
                   <div className="project-icon">
@@ -155,18 +159,25 @@ function Projects() {
                   </div>
                   <h3>{project.title}</h3>
                   <p>{project.description}</p>
+                  <h3>Tech Stack :</h3>
+                  <div className="project-keywords">
+                    {project.techStack.map((stack) => (
+                      <a>{stack.toUpperCase()}</a>
+                    ))}
+                  </div>
                   {project.link && (
                     <div className="link-proj-desc">
                       <SvgIcon iconName="link_svg" />
-                      <a href={project.link}>{project.title}</a>
+                      <a href={project.link}>{project.shortLink}</a>
                     </div>
                   )}
+                  {project.linkToGit && (
+                    <a className="git-link" href={project.linkToGit}>
+                      <SvgIcon iconName="github_svg" />
+                      Git Hub
+                    </a>
+                  )}
                 </div>
-                {project.linkToGit && (
-                  <a className="git-link" href={project.linkToGit}>
-                    Git Hub
-                  </a>
-                )}
               </div>
             </li>
           ))}
