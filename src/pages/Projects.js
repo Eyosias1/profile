@@ -10,6 +10,16 @@ import img42 from "../assets/42.png";
 import rab from "../assets/rabbit.jpg";
 import qrcode from "../assets/QR Code.png";
 import soko from "../assets/sokoban.jpg";
+import connect from "../assets/connect4.jpg";
+import compi from "../assets/compi.png";
+import noimg from "../assets/noimage.jpg";
+import medium from "../assets/medium.png";
+import server from "../assets/server.png";
+import assembly from "../assets/assembly.png";
+import algo from "../assets/algorithm.png";
+import game2048 from "../assets/game2048.png";
+import frontEnd from "../assets/front-endPack.png";
+import js from "../assets/javascript.png";
 
 import projectsData from "../assets/data/projects.json";
 import keywordsData from "../assets/data/sofwareKeywords.json";
@@ -23,6 +33,10 @@ function Projects() {
   const [selectedKeywords, setSelectedKeywords] = useState(["all categories"]);
 
   const imgMap = {
+    frontEnd: frontEnd,
+    game2048: game2048,
+    algo: algo,
+    js: js,
     cid: cid,
     travel: travel,
     car: car,
@@ -30,6 +44,12 @@ function Projects() {
     rab: rab,
     qr_c: qrcode,
     soko: soko,
+    connect: connect,
+    compi: compi,
+    noimg: noimg,
+    medium: medium,
+    server: server,
+    assembly: assembly,
   };
 
   useEffect(() => {
@@ -125,11 +145,13 @@ function Projects() {
               <div className="proj-grid">
                 <div className="proj-grid-el">
                   <div className="project-icon">
-                    <img
-                      src={imgMap[project.imgSrc]}
-                      alt={`${project.title} Logo`}
-                      className="profile-img"
-                    />
+                    {project.imgSrc && (
+                      <img
+                        src={imgMap[project.imgSrc]}
+                        alt={`${project.title} Logo`}
+                        className="profile-img"
+                      />
+                    )}
                   </div>
                   <h3>{project.title}</h3>
                   <p>{project.description}</p>

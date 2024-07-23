@@ -93,7 +93,7 @@
       "title": "Connect Four",
       "description":
         "Connect four game. Learning object oriented programming and optimization of complexity using recursion",
-      "imgSrc": "",
+      "imgSrc": "connect",
       "linkToGit": "https://github.com/Eyosias1/connect_four",
       "keywords": [
         "all categories",
@@ -105,7 +105,7 @@
       "title": "Compiled a Language",
       "description":
         "Created my own programming language with java and asssembly. Implementing the basic operations (loop, addition, division ...)",
-      "imgSrc": "",
+      "imgSrc": "compi",
       "linkToGit": "https://github.com/Eyosias1/Compilation",
       "keywords": [
         "all categories",
@@ -114,11 +114,35 @@
       ]
     },
     {
+      "id": 19,
+      "title": "Assembly",
+      "description":
+        "The ultimate assembly exercice git repository.",
+      "imgSrc": "assembly",
+      "linkToGit": "https://github.com/Eyosias1/Assembly-ex",
+      "keywords": [
+        "all categories",
+        "assembly"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Registration System",
+      "description":
+        "The assembly language program that allows you to register employees, list all registered employees, display a specific employee, find the average age of employees, and exit the program..",
+      "imgSrc": "assembly",
+      "linkToGit": "https://github.com/Eyosias1/assembly-registration_system",
+      "keywords": [
+        "all categories",
+        "assembly"
+      ]
+    },
+    {
       "id": 9,
       "title": "Algorithms and Math",
       "description":
         "Learned how to implement famouse algorithms like jacobi and Lagrange interpolation ",
-      "imgSrc": "",
+      "imgSrc": "algo",
       "linkToGit": "https://github.com/Eyosias1/Maths-and-Agorithms",
       "keywords": [
         "all categories",
@@ -142,7 +166,7 @@
       "title": "2048",
       "description":
         "Recreated Famous 2048 game in c with c's best practices, learning how to build with make and organize.",
-      "imgSrc": "",
+      "imgSrc": "game2048",
       "linkToGit": "https://github.com/Eyosias1/2048",
       "keywords": [
         "all categories",
@@ -154,7 +178,7 @@
       "title": "Web server",
       "description":
         "Implemented the back-end of a colored sticker dot management app for a school.",
-      "imgSrc": "",
+      "imgSrc": "server",
       "linkToGit": "https://github.com/Eyosias1/Y2_webserver",
       "keywords": [
         "all categories",
@@ -167,7 +191,7 @@
       "title": "Medium article",
       "description":
         "Learning the front-end, styling and pushing to github pages.",
-      "imgSrc": "",
+      "imgSrc": "medium",
       "link": "https://eyosias1.github.io/medium-article/",
       "linkToGit": "https://github.com/Eyosias1/medium-article",
       "keywords": [
@@ -181,7 +205,7 @@
       "title": "Landing page",
       "description":
         "Learning the front-end,how to create a landing page, styling and pushing to github pages.",
-      "imgSrc": "",
+      "imgSrc": "frontEnd",
       "link": "eyosias1.github.io/landing/",
       "linkToGit": "https://github.com/Eyosias1/landing",
       "keywords": [
@@ -195,7 +219,7 @@
       "title": "Image gallery",
       "description":
         "Learning the front-end,how to create a image gallery in javascript and pushing to github pages.",
-      "imgSrc": "",
+      "imgSrc": "frontEnd",
       "link": "eyosias1.github.io/image-gallery/",
       "linkToGit": "https://github.com/Eyosias1/image-gallery",
       "keywords": [
@@ -209,7 +233,7 @@
       "title": "Setup",
       "description":
         "Created a setup for fast front-end website development.",
-      "imgSrc": "",
+      "imgSrc": "frontEnd",
       "link": "eyosias1.github.io/setup-layout/",
       "linkToGit": "https://github.com/Eyosias1/setup-layout",
       "keywords": [
@@ -223,7 +247,7 @@
       "title": "Background Css generator",
       "description":
         "Created a free page that allows users to generate a linear gradient background of their choice instantly.",
-      "imgSrc": "",
+      "imgSrc": "frontEnd",
       "link": "https://eyosias1.github.io/background-generator-byeyos/",
       "linkToGit": "https://github.com/Eyosias1/background-generator-byeyos",
       "keywords": [
@@ -233,40 +257,15 @@
       ]
     },
     {
-      "id": 18,
-      "title": "Registration System",
-      "description":
-        "The assembly language program that allows you to register employees, list all registered employees, display a specific employee, find the average age of employees, and exit the program..",
-      "imgSrc": "",
-      "linkToGit": "https://github.com/Eyosias1/assembly-registration_system",
-      "keywords": [
-        "all categories",
-        "assembly"
-      ]
-    },
-    {
-      "id": 19,
-      "title": "Assembly",
-      "description":
-        "The ultimate assembly exercice git repository.",
-      "imgSrc": "",
-      "linkToGit": "https://github.com/Eyosias1/Assembly-ex",
-      "keywords": [
-        "all categories",
-        "assembly"
-      ]
-    },
-    {
       "id": 20,
       "title": "Advanced javascript",
       "description":
         "Learning and catching up with all javascript ES series.",
-      "imgSrc": "",
+      "imgSrc": "js",
       "linkToGit": "https://github.com/Eyosias1/advanced_javascript_ex",
       "keywords": [
         "all categories",
         "javascript"
       ]
     }
-
 ]
