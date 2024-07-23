@@ -1,0 +1,20 @@
+
+
+.article-section {
+    padding: 40px 0px 0px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.link-button {
+    background-color: var(--colorlinks2);
+    border-radius: 15px;
+    width: 15%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
