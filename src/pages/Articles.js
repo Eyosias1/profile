@@ -10,7 +10,7 @@ function Articles() {
       <h3>Soon ...🙃🫢🤫</h3>
       <p>There are no articles a the moment return to the home page.</p>
       <div className="link-button">
-        <Link to="/profile"> Home</Link>
+        <Link to="/"> Home</Link>
       </div>
     </div>
   );
