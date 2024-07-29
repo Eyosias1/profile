@@ -13,7 +13,6 @@ function App() {
     <Router>
       <div className="App section">
         <Header />
-        <Home />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
