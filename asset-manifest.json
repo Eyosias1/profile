@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/profile/static/css/main.4e367bf8.css",
-    "main.js": "/profile/static/js/main.3b3c1bc5.js",
-    "static/js/453.d73b0aaa.chunk.js": "/profile/static/js/453.d73b0aaa.chunk.js",
-    "static/media/profile1.jpg": "/profile/static/media/profile1.e76c8d5eefde26a683d9.jpg",
-    "static/media/compi.png": "/profile/static/media/compi.f28350e0c62588ff4d68.png",
-    "static/media/sokoban.jpg": "/profile/static/media/sokoban.ad109a695ce63e235a5a.jpg",
-    "static/media/medium.png": "/profile/static/media/medium.d33cf781fe48ac260b68.png",
-    "static/media/server.png": "/profile/static/media/server.3a7267f53ac27ef60433.png",
-    "static/media/connect4.jpg": "/profile/static/media/connect4.180f867e677253976652.jpg",
-    "static/media/front-endPack.png": "/profile/static/media/front-endPack.544d95fb2911ef8aa05b.png",
-    "static/media/noimage.jpg": "/profile/static/media/noimage.38af56835c62185f20ae.jpg",
-    "static/media/kelal-mela.png": "/profile/static/media/kelal-mela.994df2f2dff639eeb5b9.png",
-    "static/media/algorithm.png": "/profile/static/media/algorithm.cb700af90f7f7bc16e74.png",
-    "static/media/assembly.png": "/profile/static/media/assembly.7b68bb501781c2c04237.png",
-    "static/media/rabbit.jpg": "/profile/static/media/rabbit.eebec63acaf8729bc72b.jpg",
-    "static/media/Travelit.svg": "/profile/static/media/Travelit.c81d3d17ee84e9ae5968666668c81ab8.svg",
-    "index.html": "/profile/index.html",
-    "main.4e367bf8.css.map": "/profile/static/css/main.4e367bf8.css.map",
-    "main.3b3c1bc5.js.map": "/profile/static/js/main.3b3c1bc5.js.map",
-    "453.d73b0aaa.chunk.js.map": "/profile/static/js/453.d73b0aaa.chunk.js.map"
+    "main.css": "/static/css/main.4e367bf8.css",
+    "main.js": "/static/js/main.d7d67b54.js",
+    "static/js/453.d73b0aaa.chunk.js": "/static/js/453.d73b0aaa.chunk.js",
+    "static/media/profile1.jpg": "/static/media/profile1.e76c8d5eefde26a683d9.jpg",
+    "static/media/compi.png": "/static/media/compi.f28350e0c62588ff4d68.png",
+    "static/media/sokoban.jpg": "/static/media/sokoban.ad109a695ce63e235a5a.jpg",
+    "static/media/medium.png": "/static/media/medium.d33cf781fe48ac260b68.png",
+    "static/media/server.png": "/static/media/server.3a7267f53ac27ef60433.png",
+    "static/media/connect4.jpg": "/static/media/connect4.180f867e677253976652.jpg",
+    "static/media/front-endPack.png": "/static/media/front-endPack.544d95fb2911ef8aa05b.png",
+    "static/media/noimage.jpg": "/static/media/noimage.38af56835c62185f20ae.jpg",
+    "static/media/kelal-mela.png": "/static/media/kelal-mela.994df2f2dff639eeb5b9.png",
+    "static/media/algorithm.png": "/static/media/algorithm.cb700af90f7f7bc16e74.png",
+    "static/media/assembly.png": "/static/media/assembly.7b68bb501781c2c04237.png",
+    "static/media/rabbit.jpg": "/static/media/rabbit.eebec63acaf8729bc72b.jpg",
+    "static/media/Travelit.svg": "/static/media/Travelit.c81d3d17ee84e9ae5968666668c81ab8.svg",
+    "index.html": "/index.html",
+    "main.4e367bf8.css.map": "/static/css/main.4e367bf8.css.map",
+    "main.d7d67b54.js.map": "/static/js/main.d7d67b54.js.map",
+    "453.d73b0aaa.chunk.js.map": "/static/js/453.d73b0aaa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4e367bf8.css",
-    "static/js/main.3b3c1bc5.js"
+    "static/js/main.d7d67b54.js"
   ]
 }
