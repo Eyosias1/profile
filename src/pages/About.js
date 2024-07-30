@@ -1,10 +1,17 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "../styles/About.css";
 
 import profile from "../assets/profile1.jpg";
 import SvgIcon from "../components/SvgIcon"; // Import the SVG component
+import social_links from "../assets/data/socials_links.json";
 
 function About() {
+  const [links, setLinks] = useState({});
+
+  useEffect(() => {
+    setLinks(social_links[0]);
+  }, []);
+
   return (
     <div className="about-section">
       <div className="about-p">
@@ -49,15 +56,15 @@ function About() {
           <img src={profile} alt="profile Logo" className="profile-img" />
         </div>
         <div className="about-socials">
-          <a href="https://x.com/EyosiasTsegaye1">
+          <a href={links.x}>
             <SvgIcon iconName="x_svg" />
             <p>Follow on X</p>
           </a>
-          <a href="https://github.com/Eyosias1">
+          <a href={links.git}>
             <SvgIcon iconName="github_svg" />
             <p>Follow on Github</p>
           </a>
-          <a href="https://www.linkedin.com/in/eyosias-woldemichael-a38550193/">
+          <a href={links.linkdin}>
             <SvgIcon iconName="linkdin_svg" />
             <p>Follow on Linkdin</p>
           </a>
